@@ -9,12 +9,18 @@ Anaconda – Python 3.7 Installation / Google Colab /Jupiter Notebook
 
 
 ## Algorithm :
-1.Import the necessary libraries of python. 2.In the end_to_end function, first calculate the similarity between the inputs and the peaks. Then, to find w used the equation Aw= Y in matrix form. Each row of A (shape: (4, 2)) consists of index[0]: similarity of point with peak1 index[1]: similarity of point with peak2 index[2]: Bias input (1) Y: Output associated with the input (shape: (4, )) W is calculated using the same equation we use to solve linear regression using a closed solution (normal equation). 3.This part is the same as using a neural network architecture of 2-2-1, 2 node input (x1, x2) (input layer) 2 node (each for one peak) (hidden layer) 1 node output (output layer) 4.To find the weights for the edges to the 1-output unit. Weights associated would be: edge joining 1st node (peak1 output) to the output node edge joining 2nd node (peak2 output) to the output node bias edge.
+1.Import the necessary libraries of python.
+2.In the end_to_end function, first calculate the similarity between the inputs and the peaks. Then, to find w used the equation Aw= Y in matrix form. Each row of A (shape: (4, 2)) consists of index[0]: similarity of point with peak1 index[1]: similarity of point with peak2 index[2]: Bias input (1) Y: Output associated with the input (shape: (4, )) W is calculated using the same equation we use to solve linear regression using a closed solution (normal equation). 
+3.This part is the same as using a neural network architecture of 2-2-1, 2 node input (x1, x2) (input layer) 2 node (each for one peak) (hidden layer) 1 node output (output layer)
+4.To find the weights for the edges to the 1-output unit. Weights associated would be: edge joining 1st node (peak1 output) to the output node edge joining 2nd node (peak2 output) to the output node bias edge.
 
 ## Program:
-```Developed by:Pavithra.P
-Reg no:212221220037```
-```import numpy as np
+```
+Developed by:Pavithra.P
+Reg no:212221220037
+```
+```
+import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
 data = pd.read_csv("train.csv")
@@ -116,6 +122,19 @@ def test_prediction(index, W1, b1, W2, b2):
   ```
 
 ## Output :
+![nn output1](https://user-images.githubusercontent.com/115135775/204736006-099a243a-639d-4b77-96c9-695955a996ec.png)
+![nn output2](https://user-images.githubusercontent.com/115135775/204736102-def46f78-bf7b-4c6d-9d4b-72bee99ea2b8.png)
+![nn output 3](https://user-images.githubusercontent.com/115135775/204736138-b07e24a9-7998-4a44-859f-87b0e592abc3.png)
+![nn output 4](https://user-images.githubusercontent.com/115135775/204736203-2c7171e9-1889-425d-93d8-ffc8bf8cf8e3.png)
+![nn output 5](https://user-images.githubusercontent.com/115135775/204736293-f6fea986-36a4-438b-9a48-24c817da233b.png)
+![nn output6](https://user-images.githubusercontent.com/115135775/204736334-6bf39c0d-5d52-4b7c-9e81-cb0615c15a3f.png)
+![nn output 7](https://user-images.githubusercontent.com/115135775/204736361-d88e2bb0-1048-492c-b950-ce684eb2fb6e.png)
+![nn output 8](https://user-images.githubusercontent.com/115135775/204736384-9fd4f13e-aa7f-4065-bc7c-87e38c681c82.png)
+
+
+
+
 
 
 ## Result:
+Thus The Implementation of Handwritten Digit Recognition using MLP Is Executed Successfully.
