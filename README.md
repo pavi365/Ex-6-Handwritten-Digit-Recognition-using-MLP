@@ -1,11 +1,10 @@
 # Ex-6-Handwritten Digit Recognition using MLP
-## Aim:
+## AIM:
        To Recognize the Handwritten Digits using Multilayer perceptron.
 ##  EQUIPMENTS REQUIRED:
 Hardware – PCs
 Anaconda – Python 3.7 Installation / Google Colab /Jupiter Notebook
-## Theory:
-/*Describe here*/
+
 
 
 ## Algorithm :
@@ -125,6 +124,7 @@ def test_prediction(index, W1, b1, W2, b2):
 ![nn output1](https://user-images.githubusercontent.com/115135775/204736006-099a243a-639d-4b77-96c9-695955a996ec.png)
 ![nn output2](https://user-images.githubusercontent.com/115135775/204736102-def46f78-bf7b-4c6d-9d4b-72bee99ea2b8.png)
 ![nn output 3](https://user-images.githubusercontent.com/115135775/204736138-b07e24a9-7998-4a44-859f-87b0e592abc3.png)
+
 ![nn output 4](https://user-images.githubusercontent.com/115135775/204736203-2c7171e9-1889-425d-93d8-ffc8bf8cf8e3.png)
 ![nn output 5](https://user-images.githubusercontent.com/115135775/204736293-f6fea986-36a4-438b-9a48-24c817da233b.png)
 ![nn output6](https://user-images.githubusercontent.com/115135775/204736334-6bf39c0d-5d52-4b7c-9e81-cb0615c15a3f.png)
